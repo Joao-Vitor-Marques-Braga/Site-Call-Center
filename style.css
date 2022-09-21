@@ -1,0 +1,199 @@
+:root{
+    --roxo_claro: #8023F9;
+    --roxo_escuro: #180136;
+    --branco: #ffffff;
+    --cinzinha: #F4F5F6;
+    --roxo_clarinho: #BF91FC;
+}
+
+.capa{
+    background-image: url("imagens/operador-de-call-center.png");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capab{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--roxo_escuro);
+    background-color: rgba(255, 255, 255, 00.5);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.scroll,
+.scroll-area{
+    max-width: 100%;
+    max-height: max-content;
+    font-size: 60px;
+}
+
+.scroll,
+.scroll-area2{
+    max-width: 100%;
+    max-height: max-content;
+    font-size: 80px;
+}
+
+.scroll-countainer{
+    overflow: auto;
+    scroll-snap-type: y proximity;
+    height: 500px;
+}
+
+.scroll-area{
+    scroll-snap-align: start;
+}
+
+.scroll-countainer,
+.scroll-area{
+    margin:0 auto;
+}
+
+.scroll-area{
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+    color: var(--branco);
+}
+
+.scroll-area2{
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+    color: var(--branco);
+}
+
+.scroll-area:nth-of-type(1) {
+    background:  var(--branco);
+}
+
+.scroll-area:nth-of-type(2) {
+    background: var(--cinzinha)
+}
+
+.scroll-area:nth-of-type(3) {
+    background: var(--roxo_claro);
+}
+
+.config_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    padding-top: 3%;
+    padding-right: 15%;
+    color: var(--roxo_escuro)
+}
+
+.subtitulo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    padding-top: 3%;
+    color: var(--branco)
+}
+
+.paragrafos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: var(--roxo_escuro);
+}
+
+.paragrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    color: var(--branco);
+    padding-inline: 3%;
+}
+
+.btn_contato{
+    background-color: transparent;
+    border: 2px solid var(--roxo_claro);
+    border-radius: 0.6em;
+    color: var(--roxo_claro);
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 2px;
+    margin-top: 10px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn_contato:hover, .btn_contato:focus{
+    color: var(--branco);
+    outline: 0;
+}
+  
+.first{
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.first:hover {
+    box-shadow: 0 0 40px 40px var(--roxo_claro) inset;
+}
+
+.input[type=text], select {
+    width: 400px;
+    height: 40px;
+    min-width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.config_input{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: var(--roxo_escuro)
+}
+
+.imgagecentral{
+    width: 110%;
+    min-width: 40%;
+}
+
+.footer{
+    background-color: var(--roxo_claro);
+    text-align: center ;
+    padding-top: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.p_footer{
+    color: var(--branco);
+    
+}
